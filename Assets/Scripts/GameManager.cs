@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
         //puckRef.GetComponent<Rigidbody>().
         puckRef.transform.position = puckSpawnPoint.position;
 
-        puckRef.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        puckRef.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
         puckRef.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
     }
 
